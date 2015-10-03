@@ -38,5 +38,5 @@ using PyPlot
 a=1
 x=linspace(-1,1,5000); y=-(a^2)*log(1-(x.^2/(a^2)));
 plot(x, y, color="red", linewidth=2.0, linestyle="-") 
-title("graph for deadzone")
+title("graph for Log barrier")
 
